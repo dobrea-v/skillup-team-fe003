@@ -35,6 +35,15 @@ nav a {
     background-color: var(--white-color);
 }
 
+.d-bledniuc-heroblock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    color: #415764;
+}
+
+
 .heroblock__image {
     background: url(./images/classroom.jpg);
     background-position: center;
@@ -43,6 +52,13 @@ nav a {
     height: 300px;
     width: 70%;
 }
+.dmitriis-heroblock-background-image {
+    background-image: url(../skillup-team-fe003/images/dmitny.jpg);
+    background-position: center center;
+    width: 100%;
+    background-repeat: repeat-x;
+    height: 240px;
+    }
 .trainer-information {
     width: 30%;
     display: flex;
@@ -55,6 +71,13 @@ nav a {
 .avatar img {
     width: 128px;
     border-radius: 50%;
+}
+.dmitrii-information{
+    margin-top: 149px;
+    width: 195px; 
+}
+.dmitrii-information img{
+    width: 195px;
 }
 
 
