@@ -57,6 +57,12 @@ nav a {
     border-radius: 50%;
 }
 
+.avatarM img {
+    width: 128px;
+    border-radius: 50%;
+    height: 128px;
+}
+
 
 .team-section {
     padding: var(--main-padding);
@@ -74,7 +80,7 @@ nav a {
     flex-flow: row wrap;
 }
 
-.card {
+.card, .cardM {
     width: 30%;
     padding: var(--main-padding);
     border: 1px solid var(--brand-color);
@@ -84,6 +90,12 @@ nav a {
     align-items: center;
     margin: 20px 0;
     border-radius: 5px;
+}
+
+.cardM {
+    background-image: url(./images/bgm.jpg);
+    background-size: cover;
+    
 }
 
 .link-to-page {
