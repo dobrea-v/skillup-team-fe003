@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white-color: #FDFDFD;
+    --brand-color: #02161B;
+    --green-color: #317D7B;
+}
+
+.container {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: left ;
+    background-color: var(--brand-color);
+    color: var(--white-color);
+    height: 60px;
+    padding: 20px;
+}
+
+.heroblock {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(./images/HTML.jpg);
+    background-size: cover;
+    height: 320px;
+}
+
+.avatar {
+    display: flex;
+    margin: 0;
+}
+
+.avatar img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    height: 200px;
+    background-color: var(--green-color);
+    font-family: 'Concert One', cursive;;
+    font-size: larger;
+}
+
+p {   
+    color: #57331C;    
+}
+
+
+
