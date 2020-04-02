@@ -55,11 +55,6 @@ nav a {
 .avatar img {
     width: 128px;
     border-radius: 50%;
-}
-
-.avatarM img {
-    width: 128px;
-    border-radius: 50%;
     height: 128px;
 }
 
@@ -80,7 +75,7 @@ nav a {
     flex-flow: row wrap;
 }
 
-.card, .cardM {
+.card {
     width: 30%;
     padding: var(--main-padding);
     border: 1px solid var(--brand-color);
@@ -92,11 +87,6 @@ nav a {
     border-radius: 5px;
 }
 
-.cardM {
-    background-image: url(./images/bgm.jpg);
-    background-size: cover;
-    
-}
 
 .link-to-page {
     margin: 50px 0 0
