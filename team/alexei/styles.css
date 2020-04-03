@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white-color: #FDFDFD;
+    --brand-color: #a3a6a4;
+    --golden-color: orange;
+
+    --main-padding: 50px 20px;
+}
+body{font-family: 'Roboto', sans-serif;font-size:1.3em;line-height:1.5em;
+font-family: 'Oswald', sans-serif;}
+body {
+	background: linear-gradient(-45deg, #a3a6a4, #fff, #d9dada, #e2e4e3);
+	background-size: 400% 400%;
+	animation: gradient 18s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.container {
+    width: 100%;
+}
+
+a{color:var(--brand-color);}
+a:hover{text-decoration:none;}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--brand-color);
+    height: 40px;
+    align-items: center;
+    color: var(--white-color);
+    padding: 0px 20px;
+}
+ 
+nav a {
+    color: var(--white-color)
+}
+
+.heroblock {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.heroblock__image {
+    background: url(./images/bg.jpg);
+    background-position: center;
+    
+    background-repeat: repeat-x;
+    height: 140px;
+    width: 100%;
+}
+.trainer-information {font-size:0.9em;margin:0 auto;
+    width: 45%;color:#2e2e2e;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;z-index:10;margin-top:-90px;
+}
+.trainer-information strong{font-size:2em;}
+
+
+
+.avatar img {
+    width: 160px;border:7px solid #a3a6a4;
+    border-radius: 50%;
+}
+
+
+.team-section {
+    padding: var(--main-padding);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: var(--main-padding);
+    flex-flow: row wrap;
+}
+
+.card {
+    width: 30%;
+    padding: var(--main-padding);
+    border: 1px solid var(--brand-color);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.link-to-page {
+    margin: 50px 0 0
+}
+.link-to-page a {
+    color: var(--brand-color);
+}
+.link-to-page a:hover {
+    color: var(--golden-color)
+}
+
+.about p {
+    padding: 5px 0;
+    text-align: center;
+}
