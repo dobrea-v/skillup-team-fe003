@@ -1,0 +1,60 @@
+/* Page settings  by defaul*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ 
+:root {
+    --white-color: #FDFDFD;
+    --brand-color: #284363;
+
+    --main-padding: 50px 20px;
+}
+
+
+.container {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--brand-color); 
+    height: 50px;
+    align-items: center;
+    color: var(--white-color);
+    padding: 0px 20px;
+    border-bottom: 1px solid gray;
+}
+nav a {
+    color: var(--white-color)
+}
+.heroblock__image {
+    background: url(https://images-na.ssl-images-amazon.com/images/I/81S9eW3D7iL._AC_SL1500_.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    height: 600px;
+     
+}
+.personal-information {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 150px;
+    
+
+}
+.avatar img {
+ border-radius: 50%;
+ 
+}
+.about p {
+    padding: 5px 0;
+    text-align: center;
+}
