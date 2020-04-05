@@ -55,6 +55,7 @@ nav a {
 .avatar img {
     width: 128px;
     border-radius: 50%;
+    height: 128px;
 }
 
 
@@ -85,6 +86,7 @@ nav a {
     margin: 20px 0;
     border-radius: 5px;
 }
+
 
 .link-to-page {
     margin: 50px 0 0
