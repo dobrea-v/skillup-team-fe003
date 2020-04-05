@@ -1,0 +1,79 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.conteiner{
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    background-color:#696969;
+    color: white;
+    top:0;
+}
+
+.avatar{
+    justify-content: center;
+    align-self:center;
+    width: 160px;
+    height: 180px;
+    border-radius:50%;
+    margin:0;
+}
+
+.backgroundpic{
+    background: url(lion.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    background-color:#000000;
+}
+
+.topics{
+    font-family: 'Spicy Rice', cursive;
+    font-size: 30px;
+}
+
+.text{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    right: 70px;
+    bottom:150px;
+    font-family: 'Oswald', sans-serif;
+    font-size: medium;
+}
+
+.skills{
+    position: relative;
+    top:150px;
+}
+
+ul{
+    list-style: none;
+}
+
+.font{
+    font-family: 'Spicy Rice', cursive;
+    font-size: 20px; 
+}
+
+.media{
+    font-family: 'Spicy Rice', cursive;
+    font-size: 20px;
+    text-align: right;
+    position: relative;
+    bottom: 150px;
+    right: 220px;
+}
