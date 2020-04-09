@@ -1,14 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import "reset";
+@import "mixins";
 
 :root {
     --white-color: #FDFDFD;
     --brand-color: #284363;
     --golden-color: #E6B760;
-
     --main-padding: 50px 20px;
 }
 
@@ -36,7 +32,7 @@ nav a {
 }
 
 .heroblock__image {
-    background: url(./images/classroom.jpg);
+    background: url(../images/classroom.jpg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -76,7 +72,7 @@ nav a {
 }
 
 .card {
-    width: 30%;
+    width: 100%;
     padding: var(--main-padding);
     border: 1px solid var(--brand-color);
     display: flex;
@@ -85,20 +81,29 @@ nav a {
     align-items: center;
     margin: 20px 0;
     border-radius: 5px;
+
+    @include isTablet {
+        width: 40%;
+    }
+    @include isDesktop {
+        width: 30%;
+    }
 }
 
 
 .link-to-page {
-    margin: 50px 0 0
-}
-.link-to-page a {
-    color: var(--brand-color);
-}
-.link-to-page a:hover {
-    color: var(--golden-color)
+    margin: 50px 0 0;
+    a {
+        color: var(--brand-color);
+        &:hover {
+            color: var(--golden-color)
+        }
+    }
 }
 
-.about p {
-    padding: 5px 0;
-    text-align: center;
+.about {
+    p {
+        padding: 5px 0;
+        text-align: center;
+    }
 }
