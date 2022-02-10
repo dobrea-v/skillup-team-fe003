@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/dobrea-v/skillup-team-fe003#readme",
   "dependencies": {
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   },
   "devDependencies": {}
 }
